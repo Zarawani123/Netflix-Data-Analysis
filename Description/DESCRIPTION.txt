@@ -1,0 +1,171 @@
+# 🎬 Netflix Data Analysis Project
+
+## 📌 Project Overview
+
+This project presents an end-to-end data analysis of Netflix movies and TV shows. The goal is to extract meaningful insights from the dataset using a combination of data preprocessing, SQL-based analysis, and interactive visualizations.
+
+The project demonstrates practical skills in data cleaning, querying, and dashboard creation, making it suitable for data analytics portfolios.
+
+---
+
+## 🎯 Objectives
+
+* Clean and preprocess raw Netflix dataset
+* Perform exploratory data analysis using SQL
+* Generate insights about content distribution, trends, and patterns
+* Build an interactive dashboard for visualization
+* Publish a structured project on GitHub
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Python (Pandas)** – Data cleaning & preprocessing
+* **MySQL** – Data storage & analysis
+* **Tableau** – Data visualization & dashboard
+* **GitHub** – Version control & project hosting
+
+---
+
+## 📂 Project Structure
+
+```
+netflix-data-analysis/
+│
+├── data/
+│   ├── raw/                # Original dataset
+│   └── cleaned/            # Cleaned dataset
+│
+├── notebooks/
+│   └── data_cleaning.ipynb # Python preprocessing
+│
+├── sql/
+│   └── analysis_queries.sql # SQL queries
+│
+├── tableau/
+│   └── dashboard.twbx      # Tableau dashboard
+│
+├── images/
+│   └── dashboard_screenshot.png
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## 🧹 Data Preprocessing
+
+Performed using Python:
+
+* Handled missing values in key columns (director, cast, country)
+* Converted date formats into proper datetime structure
+* Extracted additional features (year_added, month_added)
+* Removed duplicate records
+
+---
+
+## 🔍 Key SQL Analysis
+
+Some of the insights derived using SQL:
+
+* Distribution of Movies vs TV Shows
+* Content growth over the years
+* Top contributing countries
+* Most frequent genres
+* Top directors and ratings
+
+---
+
+## 📊 Dashboard
+
+The Tableau dashboard provides interactive insights such as:
+
+* Content distribution by type
+* Year-wise content growth
+* Country-wise production
+* Genre and rating analysis
+
+📸 Preview:
+![Dashboard](images/dashboard_screenshot.png)
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/yourusername/netflix-data-analysis.git
+cd netflix-data-analysis
+```
+
+### 2️⃣ Data Preprocessing (Python)
+
+* Open notebook:
+
+```
+notebooks/data_cleaning.ipynb
+```
+
+* Run all cells to generate cleaned dataset
+
+### 3️⃣ SQL Analysis (MySQL)
+
+* Create database:
+
+```sql
+CREATE DATABASE netflix_db;
+USE netflix_db;
+```
+
+* Import cleaned CSV into table `netflix`
+* Run queries from:
+
+```
+sql/analysis_queries.sql
+```
+
+### 4️⃣ Tableau Dashboard
+
+* Open:
+
+```
+tableau/dashboard.twbx
+```
+
+---
+
+## 💡 Key Insights
+
+* Movies dominate Netflix content compared to TV Shows
+* Significant growth in content after 2015
+* United States contributes the highest number of titles
+* Drama and Comedy are the most popular genres
+
+---
+
+## 📈 Future Improvements
+
+* Add machine learning for recommendation system
+* Perform sentiment analysis on descriptions
+* Automate data pipeline
+* Deploy dashboard online
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📬 Contact
+
+For queries or collaboration:
+
+* GitHub: https://github.com/yourusername
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
