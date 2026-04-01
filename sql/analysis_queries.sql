@@ -1,0 +1,18 @@
+
+USE netflix_db;
+CREATE TABLE netflix (
+    show_id VARCHAR(10),
+    type VARCHAR(20),
+    title TEXT,
+    director TEXT,
+    cast TEXT,
+    country TEXT,
+    date_added DATE,
+    release_year INT,
+    rating VARCHAR(10),
+    duration VARCHAR(20),
+    listed_in TEXT,
+    description TEXT,
+    year_added INT,
+    month_added INT
+);
